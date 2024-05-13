@@ -1,0 +1,17 @@
+#server:
+##  port: 8888
+#  servlet:
+#    context-path: config-server
+#spring:
+#  application:
+#    name: config-server
+    
+
+    
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/registry-server/eureka/
+
